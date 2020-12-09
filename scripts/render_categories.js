@@ -11,7 +11,7 @@ let categories = [
  *  Print the category titles.
  *
  * 1. Loop over the `categories` array.
- *      HINT: Use a for/of loop jyrfuyjfj
+ *      HINT: Use a for/of loop
  *      Need more help? Check out https://mzl.la/3lDHxIq or ask a volunteer.
  *
  * 2. Create an HTML string for each category. It should look like this:
@@ -33,5 +33,15 @@ let categories = [
  *      Answer: https://bit.ly/3gOwrga
  */
 function renderCategories() {
-  // Add code here
+  /*
+  for (let category of categories) {
+      let categoryHtml = "<div class='category'>";
+      categoryHtml += "<div class='category-cell'>" + category.toUpperCase() + "</div>";
+      categoryHtml += "</div>";
+      $("#categories").append(categoryHtml);
+  }
+  */
+  categories.forEach(function (category) {
+    let str = '....'; 
+  });
 }
